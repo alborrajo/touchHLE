@@ -2,9 +2,9 @@ name: Build touchHLE
 
 on:
   push:
-    branches: [ "trunk" ]
+    branches: [ "wip-lightbike" ]
   pull_request:
-    branches: [ "trunk" ]
+    branches: [ "wip-lightbike" ]
 
 env:
   CARGO_TERM_COLOR: always
